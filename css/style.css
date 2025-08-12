@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 90px;
+    background-color: #eceaea;
+}
+.float-r{
+    float: right;
+}
+.container{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+.searchbox{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.postbtn{
+    width: 15%;
+    float: left;
+}
+
+.notification{
+    width: 15%;
+    float: left;
+    margin-top: 35px;
+    font-weight: 1000;
+}
+
+.logo img{
+    width: 75%;
+    color: none;
+}
+
+.search{
+    width: 70%;
+    margin-top: 25px;
+    padding: 13px 13px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d6d6d6;
+}
+
+.pobtn{
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 9px 17px;
+    background: #FD1D1D;
+    background: linear-gradient(278deg, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: azure;
+    float: left;
+}
+
+.bell{
+    font-size: 26px;
+    float: left;
+}
+.float-l{
+    float: left;
+}
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    padding: 40px 0px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    transition: all 1s;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.links:hover{
+    background-color: thistle;
+    border-radius: 10px;
+}
+.main-area{
+    width: 50%;
+    height: 100vh;
+}
+.stories{
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bubble{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff0037;
+    margin-left: 15px;
+}
+.bubble img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+.posts{
+    width: 100%;
+    height: 850px;
+}
+.post-1{
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 10px 5px;
+    height: 540px;
+    margin-bottom: 5px;
+}
+.post-2{
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 10px 5px;
+    height: 535px;
+}
+.po-wr{
+    font-weight: 600;
+}
+.post-1 img{
+    width: 95%;
+    height: 87%;
+    margin: 5px;
+}
+.like{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.like i{
+    color: red;
+}
+.comm{
+    margin-left: 10px;
+}
+.post-2 img{
+    width: 95%;
+    margin: 5px;
+}
+.suggestions{
+    width: 30%;
+    height: 100vh;
+    padding: 30px 15px;
+    font-size: 25px;
+}
+.id-wr{
+    font-weight: 600;
+    padding: 25px 25px;
+}
+.suggestions img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff0037;
+}
+.id{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.follow{
+    border: none;
+    background-color: transparent;
+    color: lightskyblue;
+}
+
+.id-in{
+    margin-right: 220px;
+    margin-top: 10px;
+}
+.follow-in{
+    margin-right: 150px;
+    margin-top: -30px;
+}
+
+.height{
+    height: 50px;
+}
